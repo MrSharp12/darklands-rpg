@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.31
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarklandsRPG", "DarklandsRPG\DarklandsRPG.csproj", "{344E05A3-35E3-4958-B110-7EAE543C361D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darklands.Biz", "Darklands.Biz\Darklands.Biz.csproj", "{DF47B412-883B-4982-B227-97B50049C055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarklandsTests", "DarklandsTests\DarklandsTests.csproj", "{98732B07-9CE4-4359-8D94-708DDC4BEAEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{344E05A3-35E3-4958-B110-7EAE543C361D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{344E05A3-35E3-4958-B110-7EAE543C361D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{344E05A3-35E3-4958-B110-7EAE543C361D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF47B412-883B-4982-B227-97B50049C055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF47B412-883B-4982-B227-97B50049C055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF47B412-883B-4982-B227-97B50049C055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF47B412-883B-4982-B227-97B50049C055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98732B07-9CE4-4359-8D94-708DDC4BEAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98732B07-9CE4-4359-8D94-708DDC4BEAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98732B07-9CE4-4359-8D94-708DDC4BEAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98732B07-9CE4-4359-8D94-708DDC4BEAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
