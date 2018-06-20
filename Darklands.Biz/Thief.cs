@@ -8,10 +8,11 @@ namespace Darklands.Biz
 {
     class Thief : Character
     {
-        public Thief(string name, int level, int hitPoints, int luck, int experiencePoints) : base(name, level, hitPoints, luck, experiencePoints)
+        public Thief(string name, int level, Weapon weapon, int hitPoints, bool isDead, int luck, int experiencePoints) : base(name, level, weapon, hitPoints, isDead, luck, experiencePoints)
         {
             Name = name;
             Level = level;
+            Weapon = weapon;
             HitPoints = hitPoints;
             Luck = luck;
             ExperiencePoints = experiencePoints;

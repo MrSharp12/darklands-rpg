@@ -11,8 +11,18 @@ namespace DarklandsRPG
     {
         static void Main(string[] args)
         {
-            var guts = new Fighter("Guts", 1, 15, 5, 0);
-            guts.ShowCharacter();
+            var dragonSlayer = new Weapon("DragonSlayer", 45);
+            var guts = new Fighter("Guts", 1, dragonSlayer, 15, false, 5, 0);
+            var skeleton = new Enemy("Skeleton", 12, false, 8);
+
+            //guts.Attack(dragonSlayer, skeleton);
+            //Console.WriteLine($"{guts.Name} attacks!  {skeleton.Type} has {skeleton.HitPoints}");
+
+            skeleton.Attack(8, guts);
+            Console.WriteLine($"Skeleton attacks!  Guts has {guts.HitPoints}");
+            
+
+
 
             Console.ReadLine();
         }

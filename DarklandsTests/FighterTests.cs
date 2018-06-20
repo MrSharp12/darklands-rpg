@@ -10,13 +10,17 @@ namespace DarklandsTests
         [TestMethod]
         public void InstantiateFighterWillWork()
         {
-            var guts = new Fighter("Guts", 1, 15, 5, 0);
+            var dragonSlayer = new Weapon("DragonSlayer", 45);
+            var guts = new Fighter("Guts", 1, dragonSlayer, 15, 5, 0);
 
             Assert.AreEqual(guts.Name, "Guts");
             Assert.AreEqual(guts.Level, 1);
+            Assert.AreEqual(guts.Weapon, "DragonSlayer");
             Assert.AreEqual(guts.HitPoints, 15);
             Assert.AreEqual(guts.Luck, 5);
             Assert.AreEqual(guts.ExperiencePoints, 0);
         }
+
+        
     }
 }

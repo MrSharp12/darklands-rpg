@@ -11,5 +11,13 @@ namespace Darklands.Biz
         public string Name { get; set; }
 
         public int MaxDamage { get; set; }
+
+        public Weapon(string name, int maxDamage)
+        {
+            Name = name;
+            MaxDamage = maxDamage;
+        }
+
+        
     }
 }
